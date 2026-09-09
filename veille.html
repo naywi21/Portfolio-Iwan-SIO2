@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Veille technologique — Iwan Jacquin</title>
+  <meta name="description" content="Démarche de veille technologique d'Iwan Jacquin : méthode, sources et thèmes suivis (cybersécurité, réseau, systèmes).">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="veille">
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Navigation principale">
+        <a class="nav__brand" href="index.html"><span class="mark">IJ</span><span>Iwan Jacquin</span></a>
+        <ul class="nav__menu" id="nav-menu">
+          <li><a class="nav__link" data-nav="accueil" href="index.html">Accueil</a></li>
+          <li><a class="nav__link" data-nav="cv" href="cv.html">CV</a></li>
+          <li><a class="nav__link" data-nav="certifications" href="certifications.html">Certifications</a></li>
+          <li><a class="nav__link" data-nav="projets" href="projets.html">Projets</a></li>
+          <li><a class="nav__link" data-nav="veille" href="veille.html">Veille techno</a></li>
+          <li><a class="nav__link" data-nav="experiences" href="experiences.html">Expériences</a></li>
+          <li><a class="nav__link" data-nav="passions" href="passions.html">Passions</a></li>
+        </ul>
+        <div class="nav__actions">
+          <button class="icon-btn theme-toggle" type="button" aria-label="Changer de thème">☀</button>
+          <button class="icon-btn nav__toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-menu">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" style="padding-block: clamp(2.5rem, 7vw, 4rem);">
+      <div class="container">
+        <div class="reveal">
+          <span class="hero__status"><span class="dot"></span> Page en préparation</span>
+          <h1>Veille technologique</h1>
+          <p class="hero__lead">
+            Rester informé de l'évolution rapide de l'informatique fait partie du métier.
+            Voici la démarche que je mets en place et les thèmes que je suis.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------- Thème & méthode ---------- -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Cadre</span>
+          <h2>Mon sujet de veille</h2>
+          <p>Axe principal : <strong>la cybersécurité des réseaux d'entreprise</strong> (menaces, bonnes pratiques, durcissement des équipements). Axes secondaires : nouveautés réseau et administration système.</p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="card reveal">
+            <div class="card__icon">🎯</div>
+            <h3>Objectifs</h3>
+            <p>Suivre les vulnérabilités récentes, comprendre les tendances et adapter mes pratiques (configuration, sécurisation).</p>
+          </article>
+          <article class="card reveal" data-delay="1">
+            <div class="card__icon">🔁</div>
+            <h3>Fréquence</h3>
+            <p>Consultation hebdomadaire des sources, synthèse mensuelle des informations les plus utiles dans un document dédié.</p>
+          </article>
+          <article class="card reveal" data-delay="2">
+            <div class="card__icon">🗃️</div>
+            <h3>Méthode</h3>
+            <p>Agrégateur RSS pour centraliser, tri par pertinence, prise de notes et reformulation pour vérifier la compréhension.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------- Outils & sources ---------- -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Organisation</span>
+          <h2>Outils & sources</h2>
+        </div>
+
+        <div class="grid grid--2">
+          <article class="card reveal">
+            <div class="card__icon">🛠️</div>
+            <h3>Outils utilisés</h3>
+            <div class="tag-list">
+              <span class="tag">Feedly / agrégateur RSS</span>
+              <span class="tag">Newsletters spécialisées</span>
+              <span class="tag">Alertes par mots-clés</span>
+              <span class="tag">Document de synthèse</span>
+              <span class="tag">Comptes techniques (YouTube, forums)</span>
+            </div>
+          </article>
+          <article class="card reveal" data-delay="1">
+            <div class="card__icon">📡</div>
+            <h3>Sources suivies</h3>
+            <div class="tag-list">
+              <span class="tag">CERT-FR (cert.ssi.gouv.fr)</span>
+              <span class="tag">ANSSI</span>
+              <span class="tag">LeMagIT</span>
+              <span class="tag">ZDNet / Next</span>
+              <span class="tag">The Hacker News</span>
+              <span class="tag">Blogs Cisco / Fortinet</span>
+              <span class="tag">Reddit r/sysadmin, r/networking</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------- Synthèses ---------- -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Journal</span>
+          <h2>Synthèses de veille</h2>
+          <p>Chaque entrée résume une actualité et explique en quoi elle concerne mon métier. Emplacements prêts à remplir.</p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline__item reveal">
+            <span class="timeline__date">Date à compléter</span>
+            <h3>Titre de l'actualité</h3>
+            <p class="timeline__org">Source · lien</p>
+            <ul>
+              <li>Résumé en 2 ou 3 phrases.</li>
+              <li>Pourquoi c'est important pour un technicien SISR.</li>
+              <li>Ce que j'en retiens / action éventuelle.</li>
+            </ul>
+          </article>
+          <article class="timeline__item reveal" data-delay="1">
+            <span class="timeline__date">Date à compléter</span>
+            <h3>Titre de l'actualité</h3>
+            <p class="timeline__org">Source · lien</p>
+            <ul>
+              <li>Résumé…</li>
+              <li>Impact métier…</li>
+              <li>À retenir…</li>
+            </ul>
+          </article>
+          <article class="timeline__item reveal" data-delay="2">
+            <span class="timeline__date">Date à compléter</span>
+            <h3>Titre de l'actualité</h3>
+            <p class="timeline__org">Source · lien</p>
+            <ul>
+              <li>Résumé…</li>
+              <li>Impact métier…</li>
+              <li>À retenir…</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <p class="footer__brand">Iwan Jacquin</p>
+          <p>Étudiant en BTS SIO option SISR au Lycée Louis Pergaud. Portfolio réalisé dans le cadre de l'épreuve E4 / du suivi de formation.</p>
+        </div>
+        <div>
+          <h4>Navigation</h4>
+          <div class="footer__links">
+            <a href="index.html">Accueil</a>
+            <a href="cv.html">CV</a>
+            <a href="certifications.html">Certifications</a>
+            <a href="projets.html">Projets</a>
+            <a href="veille.html">Veille technologique</a>
+            <a href="experiences.html">Expériences</a>
+            <a href="passions.html">Passions</a>
+          </div>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <div class="footer__links">
+            <a href="mailto:iwanjacquin2109@gmail.com">iwanjacquin2109@gmail.com</a>
+            <a href="tel:+33664164931">06 64 16 49 31</a>
+            <a href="CV Iwan Jacquin.pdf" target="_blank" rel="noopener">Télécharger le CV (PDF)</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; <span class="footer-year">2026</span> Iwan Jacquin — Tous droits réservés.</span>
+        <span>BTS SIO — Services Informatiques aux Organisations</span>
+      </div>
+    </div>
+  </footer>
+
+  <button class="to-top" type="button" aria-label="Revenir en haut de la page">↑</button>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

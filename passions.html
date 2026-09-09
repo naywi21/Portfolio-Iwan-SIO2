@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Passions — Iwan Jacquin</title>
+  <meta name="description" content="Centres d'intérêt d'Iwan Jacquin : escalade, jeux vidéo, lecture et voyages.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="passions">
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Navigation principale">
+        <a class="nav__brand" href="index.html"><span class="mark">IJ</span><span>Iwan Jacquin</span></a>
+        <ul class="nav__menu" id="nav-menu">
+          <li><a class="nav__link" data-nav="accueil" href="index.html">Accueil</a></li>
+          <li><a class="nav__link" data-nav="cv" href="cv.html">CV</a></li>
+          <li><a class="nav__link" data-nav="certifications" href="certifications.html">Certifications</a></li>
+          <li><a class="nav__link" data-nav="projets" href="projets.html">Projets</a></li>
+          <li><a class="nav__link" data-nav="veille" href="veille.html">Veille techno</a></li>
+          <li><a class="nav__link" data-nav="experiences" href="experiences.html">Expériences</a></li>
+          <li><a class="nav__link" data-nav="passions" href="passions.html">Passions</a></li>
+        </ul>
+        <div class="nav__actions">
+          <button class="icon-btn theme-toggle" type="button" aria-label="Changer de thème">☀</button>
+          <button class="icon-btn nav__toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-menu">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" style="padding-block: clamp(2.5rem, 7vw, 4rem);">
+      <div class="container">
+        <div class="reveal">
+          <span class="hero__status"><span class="dot"></span> En dehors des cours</span>
+          <h1>Mes passions</h1>
+          <p class="hero__lead">
+            Ce qui me fait sortir de derrière un écran — et parfois ce qui m'y ramène pour de
+            bonnes raisons.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="grid grid--2">
+
+          <article class="card reveal">
+            <div class="card__icon">🧗</div>
+            <h3>Escalade</h3>
+            <p>
+              En salle et en falaise. J'y trouve de la concentration, de la gestion du stress
+              et le goût de la progression étape par étape — des réflexes utiles aussi en informatique.
+            </p>
+            <div class="tag-list"><span class="tag">Bloc</span><span class="tag">Voie</span><span class="tag">Extérieur</span></div>
+          </article>
+
+          <article class="card reveal" data-delay="1">
+            <div class="card__icon">🎮</div>
+            <h3>Jeux vidéo</h3>
+            <p>
+              Joueur curieux, autant pour les mécaniques de jeu que pour ce qu'il y a derrière :
+              configuration de machines, optimisation, réseau et petits serveurs entre amis.
+            </p>
+            <div class="tag-list"><span class="tag">PC</span><span class="tag">Serveurs de jeu</span><span class="tag">Hardware</span></div>
+          </article>
+
+          <article class="card reveal" data-delay="2">
+            <div class="card__icon">📚</div>
+            <h3>Lecture</h3>
+            <p>
+              Romans, science-fiction et ouvrages techniques. Une habitude qui entretient
+              l'attention et la capacité à assimiler de la documentation.
+            </p>
+            <div class="tag-list"><span class="tag">SF</span><span class="tag">Romans</span><span class="tag">Docs techniques</span></div>
+          </article>
+
+          <article class="card reveal" data-delay="3">
+            <div class="card__icon">✈️</div>
+            <h3>Voyages</h3>
+            <p>
+              Croatie, Portugal, Maroc, Grèce, Corse, Suisse. Découvrir d'autres pays,
+              s'adapter, se débrouiller : de l'autonomie que je réinvestis au quotidien.
+            </p>
+            <div class="tag-list">
+              <span class="tag">Croatie</span><span class="tag">Portugal</span><span class="tag">Maroc</span>
+              <span class="tag">Grèce</span><span class="tag">Corse</span><span class="tag">Suisse</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <p class="footer__brand">Iwan Jacquin</p>
+          <p>Étudiant en BTS SIO option SISR au Lycée Louis Pergaud. Portfolio réalisé dans le cadre de l'épreuve E4 / du suivi de formation.</p>
+        </div>
+        <div>
+          <h4>Navigation</h4>
+          <div class="footer__links">
+            <a href="index.html">Accueil</a>
+            <a href="cv.html">CV</a>
+            <a href="certifications.html">Certifications</a>
+            <a href="projets.html">Projets</a>
+            <a href="veille.html">Veille technologique</a>
+            <a href="experiences.html">Expériences</a>
+            <a href="passions.html">Passions</a>
+          </div>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <div class="footer__links">
+            <a href="mailto:iwanjacquin2109@gmail.com">iwanjacquin2109@gmail.com</a>
+            <a href="tel:+33664164931">06 64 16 49 31</a>
+            <a href="CV Iwan Jacquin.pdf" target="_blank" rel="noopener">Télécharger le CV (PDF)</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; <span class="footer-year">2026</span> Iwan Jacquin — Tous droits réservés.</span>
+        <span>BTS SIO — Services Informatiques aux Organisations</span>
+      </div>
+    </div>
+  </footer>
+
+  <button class="to-top" type="button" aria-label="Revenir en haut de la page">↑</button>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
